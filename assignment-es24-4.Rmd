@@ -1,0 +1,34 @@
+---
+title: "進化社会学課題4"
+author: "工科太郎"
+date: "`r format(Sys.Date(),'%Y年%m月%d日')`"
+output: html_document
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+## 課題の内容
+
+A) 複数の初期値を格納したベクトルp0（次元数は任意)および同調パラメータ$D$を引数にとり、p0で与えられた全ての初期値に対して横軸$t$、縦軸$p_t$のグラフを描画するような関数`conformist_plot(p0,D)`を定義せよ。ただし$t=0\sim 100$とすること。初期値ごとに色を変える必要はない。
+
+```{r assignment-4-A}
+conformist_plot <- function(p0,D) {
+# ここに関数のボディを書く
+  
+}
+
+```
+
+B) 上で定義した関数`conformist_plot`を用いて、$p_0=0,0.1,0.2,0.3,\dots,1.0$の11通りの初期値に対して$p_t$の時間変化のグラフを描画せよ。ただし$D=0.1$とする。
+
+```{r assignment-4-B}
+# ここにコードを書く
+```
+
+C) 上のBと同じことを、$D=-0.1$に対して行え。
+
+```{r assignment-4-CC}
+# ここにコードを書く
+```
